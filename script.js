@@ -22,8 +22,8 @@ var layout = {
 	margin: {
     l: 50,
     r: 50,
-    b: 100,
-    t: 100,
+    b: 50,
+    t: 50,
     pad: 4
   }};
 Plotly.newPlot('myDiv', data, layout);
