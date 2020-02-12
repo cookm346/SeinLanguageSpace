@@ -1,4 +1,4 @@
-Plotly.d3.csv('https://raw.githubusercontent.com/cookm346/SeinSpace/master/pca3episodes_transformed.csv', function(err, rows){
+Plotly.d3.csv('https://raw.githubusercontent.com/cookm346/SeinLanguageSpace/master/pca3episodes_transformed.csv', function(err, rows){
 function unpack(rows, key) {
 	return rows.map(function(row)
 	{ return row[key]; });}
